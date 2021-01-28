@@ -302,6 +302,10 @@ a:hover {
     background: #111;
 }
 
+.container-mid a:first-child {
+    all: unset;
+}
+
 #intro .container-mid a:after {
     position: absolute;
     z-index: -1;
@@ -606,18 +610,19 @@ a:hover {
     list-style: none;
 }
 
-#contact .contact-list li {
-    font-size: 2.4rem;
-    line-height: 2.4em;
-}
-
-#contact .contact-list li i {
+#contact .contact-list i {
     line-height: 1.2em;
     width: 1.2em;
     height: 1.2em;
     margin-right: 1em;
     text-align: center;
     border-radius: 100px;
+    font-size: 2.4rem;
+    line-height: 2.4em;
+}
+
+#contact .contact-list a {
+    margin-left: 1em;
 }
 
 #contact #contact-form {
@@ -808,7 +813,7 @@ a:hover {
     -webkit-transition: .2s ease;
     -o-transition: .2s ease;
     transition: .2s ease;
-    background: #008aff;
+    background: #555555
 }
 
 #footer .social-icons li:hover:after {
